@@ -633,11 +633,11 @@ add_getdomains() {
     done
 
     if [ "$COUNTRY" == 'russia_inside' ]; then
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/tonyst2/allow-domains/main/Russia/inside-dnsmasq-nfset.lst
     elif [ "$COUNTRY" == 'russia_outside' ]; then
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/tonyst2/allow-domains/main/Russia/outside-dnsmasq-nfset.lst
     elif [ "$COUNTRY" == 'ukraine' ]; then
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Ukraine/inside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/tonyst2/allow-domains/main/Ukraine/inside-dnsmasq-nfset.lst
     fi
 
     if [ "$COUNTRY" != '0' ]; then
